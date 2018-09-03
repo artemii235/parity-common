@@ -6,7 +6,7 @@ authors = ["Parity Technologies <admin@parity.io>"]
 [dependencies]
 elastic-array = "0.10"
 ethereum-types = "0.3"
-fs-swap = "0.2.1"
+fs-swap = { git = "https://github.com/ngotchac/fs-swap", rev = "5ae43b2775d34bb9eb9b384b323bae9ab869cdde" }
 interleaved-ordered = "0.1.0"
 kvdb = { path = "../kvdb" }
 log = "0.3"
